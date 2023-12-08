@@ -129,7 +129,7 @@ def main():
                                   interval=updateInterval,
                                   save_count=50)
 
-    # # of frames?
+    # # of frames
     # set output file
     if args.movfile:
         ani.save(args.movfile, fps=30, extra_args=['-vcodec', 'libx264'])
